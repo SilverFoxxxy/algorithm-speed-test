@@ -7,7 +7,7 @@ Testing the DFS algorithm implemented in three ways: in global memory, in classe
 ([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20DFS.cpp)).
 
 | **Тest** | **Global** | **Class** | **Reference** |
-| -------- |:----------:| ---------:| ------------- |
+|:--------:|:----------:|:---------:|:-------------:|
 | 1        | 0.597      | 0.608     |  0.618        |
 | 2        | 0.592      | 0.594     |  0.616        |
 | 3        | 0.594      | 0.607     |  0.621        |
@@ -31,7 +31,7 @@ Testing Dijkstra's algorithm implemented in three ways: using a heap, a priority
 ([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20Dijkstra.cpp)).
 
 | **Тest** | **Heap** | **Priority queue** | **Multiset** |
-| -------- |:--------:| ------------------:| ------------ |
+|:--------:|:--------:|:------------------:|:------------:|
 | 1        | 0.305    | 0.329              |  0.342       |
 | 2        | 0.308    | 0.331              |  0.338       |
 | 3        | 0.304    | 0.332              |  0.345       |
