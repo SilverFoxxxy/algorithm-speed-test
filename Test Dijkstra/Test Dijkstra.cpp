@@ -162,10 +162,10 @@ private:
   void PQDijkstra(vector<int64_t>& dist) {
     dist.assign(vertices_, k_inf);
     vector<bool> used(vertices_, false);
-    auto ÑompareDists = [](const pair<int64_t, int32_t>& A, const pair<int64_t, int32_t>& B) {
+    auto Ã‘ompareDists = [](const pair<int64_t, int32_t>& A, const pair<int64_t, int32_t>& B) {
       return A.first > B.first;
     };
-    std::priority_queue<pair<int64_t, int32_t>, std::vector<pair<int64_t, int32_t>>, decltype(ÑompareDists)> pq(ÑompareDists);
+    std::priority_queue<pair<int64_t, int32_t>, std::vector<pair<int64_t, int32_t>>, decltype(Ã‘ompareDists)> pq(Ã‘ompareDists);
 
     dist[0] = 0;
     pq.push({ 0, 0 });
@@ -197,10 +197,10 @@ private:
   void MultisetDijkstra(vector<int64_t>& dist) {
     dist.assign(vertices_, k_inf);
     vector<bool> used(vertices_, false);
-    auto ÑompareDists = [](const pair<int64_t, int32_t>& A, const pair<int64_t, int32_t>& B) {
+    auto Ã‘ompareDists = [](const pair<int64_t, int32_t>& A, const pair<int64_t, int32_t>& B) {
       return A.first < B.first;
     };
-    std::multiset<pair<int64_t, int32_t>, decltype(ÑompareDists)> mlset(ÑompareDists);
+    std::multiset<pair<int64_t, int32_t>, decltype(Ã‘ompareDists)> mlset(Ã‘ompareDists);
     // std::set<pair<int64_t, int32_t>> mlset;
     dist[0] = 0;
     mlset.insert({ 0, 0 });
