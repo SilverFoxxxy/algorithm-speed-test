@@ -3,8 +3,8 @@ C++ algorithms speed tests
 
 ## DFS Test
 
-Testing the DFS algorithm implemented in three ways: in global memory, in classes and by references.
-([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20DFS.cpp))
+Testing the DFS algorithm implemented in three ways: in global memory, in classes and by references 
+([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20DFS.cpp)).
 
 | **Тest** | **Global** | **Class** | **Reference** |
 | -------- |:----------:| ---------:| ------------- |
@@ -22,10 +22,13 @@ Testing the DFS algorithm implemented in three ways: in global memory, in classe
 ### Measurement data in graph form
 ![](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/graphic1.png)
 
+### Conclusion
+The Depth-first search algorithm is faster in global memory.
+
 ## Dijkstra Test
 
-Testing Dijkstra's algorithm implemented in three ways: using a manual heap, a priority queue and a multiset.
-([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20Dijkstra.cpp))
+Testing Dijkstra's algorithm implemented in three ways: using a heap, a priority queue and a multiset 
+([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20Dijkstra.cpp)).
 
 | **Тest** | **Heap** | **Priority queue** | **Multiset** |
 | -------- |:--------:| ------------------:| ------------ |
@@ -43,3 +46,5 @@ Testing Dijkstra's algorithm implemented in three ways: using a manual heap, a p
 ### Measurement data in graph form
 ![](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/graphic2.png)
 
+### Conclusion
+Dijkstra's algorithm using a heap is faster.
