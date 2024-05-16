@@ -1,7 +1,11 @@
 # algorithm-speed-test
 C++ algorithms speed tests
 
-## DFS Test
+## Tested algorithms
+- [DFS](DFS test)
+- [Dijkstra's algoritm](Dijkstra's algoritm test)
+
+## DFS test
 
 Testing the DFS algorithm implemented in three ways: in global memory, in classes and by references 
 ([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20DFS.cpp)).
@@ -18,14 +22,15 @@ Testing the DFS algorithm implemented in three ways: in global memory, in classe
 | 8        | 0.599      | 0.603     |  0.622        |
 | 9        | 0.6        | 0.605     |  0.621        |
 | 10       | 0.609      | 0.618     |  0.625        |
+|          |            | **1.18%** |  **3.23%**    |
 
-### Measurement data in graph form
-![](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/graphic1.png)
+### Results
+The depth-first search algorithm in classes and using pass-by-reference works slower than DFS in global memory by 1.18% and 3.23%, respectively.
 
 ### Conclusion
-The Depth-first search algorithm is faster in global memory.
+The time difference is not very large, so you can choose the option that is convenient for you or more suitable in your case.
 
-## Dijkstra Test
+## Dijkstra's algoritm test
 
 Testing Dijkstra's algorithm implemented in three ways: using a heap, a priority queue and a multiset 
 ([file with solve](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/Test%20Dijkstra.cpp)).
@@ -42,9 +47,10 @@ Testing Dijkstra's algorithm implemented in three ways: using a heap, a priority
 | 8        | 0.309    | 0.333              |  0.344       |
 | 9        | 0.306    | 0.329              |  0.339       |
 | 10       | 0.306    | 0.325              |  0.343       |
+| 10       |          | **7.52%**          |  **13.28%**  |
 
-### Measurement data in graph form
-![](https://github.com/SilverFoxxxy/algorithm-speed-test/blob/checkpoint1/graphic2.png)
+### Results
+The Dijkstra's algorithm using a priority queue and multiset works slower than using a heap by 7.52% and 13.28%, respectively.
 
 ### Conclusion
-Dijkstra's algorithm using a heap is faster.
+Dijkstra's algorithm using a heap is faster, but the solution is very large, unlike using a priority queue or a multiset. So the best option is to use a priority queue if speed is not that important.
