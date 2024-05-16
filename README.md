@@ -3,7 +3,7 @@ C++ algorithms speed tests
 
 ## Tested algorithms
 - [DFS](#DFS-test)
-- [Dijkstra's algoritm](#Dijkstra's-algoritm-test)
+- [Dijkstra's algoritm](#Dijkstras-algoritm-test)
 
 ## DFS test
 
