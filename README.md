@@ -2,8 +2,8 @@
 C++ algorithms speed tests
 
 ## Tested algorithms
-- [DFS][## DFS test]
-- [Dijkstra's algoritm][Dijkstra's algoritm test]
+- [DFS](#DFS test)
+- [Dijkstra's algoritm](#Dijkstra's algoritm test)
 
 ## DFS test
 
@@ -56,4 +56,4 @@ The Dijkstra's algorithm using a priority queue and multiset works slower than u
 Dijkstra's algorithm using a heap is faster, but the solution is very large, unlike using a priority queue or a multiset. So the best option is to use a priority queue if speed is not that important.
 
 ## Thanks
-[](https://media3.giphy.com/media/3oEdva9BUHPIs2SkGk/200w.gif?cid=6c09b952q75q5lx3yedb4po0kq108iyiy9o0b81unscw5viv&ep=v1_gifs_search&rid=200w.gif&ct=g)
+[]([https://media3.giphy.com/media/3oEdva9BUHPIs2SkGk/200w.gif?cid=6c09b952q75q5lx3yedb4po0kq108iyiy9o0b81unscw5viv&ep=v1_gifs_search&rid=200w.gif&ct=g](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.icegif.com%2Fthanks-44%2F&psig=AOvVaw2YqzCwiJSOVHw4GNybyrgj&ust=1715923833164000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCA28a4kYYDFQAAAAAdAAAAABAE))
